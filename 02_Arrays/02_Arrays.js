@@ -27,6 +27,6 @@ console.log(`Have equal elements: ${haveEqualElements(array)}`);
 //8----------------------------------------------------------------------------
 var array2 = array.slice(halfLength);
 console.log("Array 2 :", array2);
-//9
+//9----------------------------------------------------------------------------
 const countEvenNum = array.reduce((count, element) => count + (element % 2 === 0 ? 1 : 0), 0);
 console.log(`The number of even numbers in the array: ${countEvenNum}`);
