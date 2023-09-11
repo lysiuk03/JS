@@ -1,0 +1,15 @@
+
+const wind = window.open('', 'window', 'width=410, height=410');
+
+
+setTimeout(() => {
+  wind.resizeTo(500, 500);
+}, 2000);
+
+setTimeout(() => {
+  wind.moveTo(200, 200);
+}, 4000);
+
+setTimeout(() => {
+  wind.close();
+}, 6000);
