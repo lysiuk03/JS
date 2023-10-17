@@ -1,0 +1,6 @@
+.image-button img {
+    height: 30px; padding: 0px;
+  }
+  .completed {
+    text-decoration: line-through;
+}
